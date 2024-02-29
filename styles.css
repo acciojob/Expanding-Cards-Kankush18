@@ -1,1 +1,28 @@
 /*  your css code here. If applicable */
+.container {
+  display: flex;
+  height:100vh;
+	column-gap:10px;
+}
+
+.panel {
+	height:100%;
+	width: 200px;
+	border-radius: 20px;
+	overflow: hidden;
+	transition: all 0.3s ease;
+}
+
+.panel img {
+  width: auto;
+  height: 100vh;
+}
+
+.img-text {
+  padding: 10px;
+  background-color: #f4f4f4;
+}
+
+.panel.active {
+  width: 90%;
+}
